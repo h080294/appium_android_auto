@@ -1,0 +1,21 @@
+﻿appium:
+# - devices: ZX1G22HQSB # Nexus6
+#   port: 4723
+#   config: appium -p 4723 -bp 4733 --udid ZX1G22HQSB
+#   platformName: android
+#   platformVersion: 7.0
+ - devices: b33aa57c # 小米5
+   port: 4724
+   config: appium -p 4724 -bp 4734 --udid b33aa57c
+   platformName: android
+   platformVersion: 6.0.1
+ - devices: 0021119e # 小米3
+   port: 4725
+   config: appium -p 4725 -bp 4735 --udid 0021119e
+   platformName: android
+   platformVersion: 4.4.4
+# - devices: 76UBBKR224R8 # MX4 Pro
+#   port: 4726
+#   config: appium -p 4726 -bp 4736 --udid 76UBBKR224R8
+#   platformName: android
+#   platformVersion: 5.1.1
