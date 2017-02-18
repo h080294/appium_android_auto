@@ -1,7 +1,7 @@
 #  /usr/bin/env python
 #  -*- encoding: utf-8 -*-
 class GetVariable(object):
-    HOST = '192.168.73.33'
+    HOST = '192.168.xx.xx'
     PORT = 8088
 
 # conflict_phone
@@ -13,5 +13,5 @@ class GetVariable(object):
 #     username,password = self.get_conflict()
 # [注意]：
 #     在case内有使用的name，其value内配置的值个数不能少于使用的设备数！
-conflict_phone = [('19977994426', '123456'), ('19906521511', '123456'), ('19904521511', '123456'),
-                  ('19905521511', '123456'), ('19903521511', '123456'), ('19902521511', '123456')]
+conflict_phone = [('1xxxxxxxxx6', '111111'), ('1xxxxxxxxx6', '111111'), ('1xxxxxxxxx6', '111111'),
+                  ('1xxxxxxxxx6', '111111'), ('1xxxxxxxxx6', '111111'), ('1xxxxxxxxx6', '111111')]
